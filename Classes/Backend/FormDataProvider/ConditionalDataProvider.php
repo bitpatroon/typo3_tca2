@@ -1,4 +1,5 @@
 <?php
+
 /***************************************************************
  *  Copyright notice
  *
@@ -100,7 +101,7 @@ class ConditionalDataProvider implements \TYPO3\CMS\Core\SingletonInterface, \TY
                             continue;
                         }
                         $subPropertyCondition = $columnConfig[$propertyConditionName][$subitemKey]['if.'];
-                        if(empty($subPropertyCondition)){
+                        if (empty($subPropertyCondition)) {
                             continue;
                         }
                         $conditionIsMet = $this->conditionIsMet($subPropertyCondition);
