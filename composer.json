@@ -27,5 +27,10 @@
     "psr-4": {
       "BPN\\Typo3LoginService\\": "Classes"
     }
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "typo3_tca2"
+    }
   }
 }
